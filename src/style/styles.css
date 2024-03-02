@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+ @import url('https://fonts.cdnfonts.com/css/aref-ruqaa-ink');
+
+                
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDECE4;
+    border: 10px solid #CBC6B9;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 800px;
+    margin-top: 77px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.textDay {
+    font-size: 18px;
+    color: black;
+}
+
+.markerGreen {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: green;
+}
+
+.textHours {
+    width: 318px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.textLocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 318px;
+    height: 82px;
+    border-right: 2px solid black;
+}
+
+.textDecoration {
+    color: #988C77;
+    font-size: 18px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textWrapper > img {
+    width: 200px;
+    height: 200px;
+}
+
+.textWrapper > h1 {
+    font-size: 200px;
+}
+
+main > img {
+    width: 600px;
+    height: 700px;
+}
+
+section{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+}
+
+.title-menu {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.line{
+    width: 285px;
+    height: 2px;
+    background-color: black;
+}
+
+article > p, li > p {
+    font-size: 18px;
+    font-family: 'PT Mono', 'sans-serif';
+    color: black;
+    height: 14px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: #988C77;
+    font-family: 'aref ruqaa','sans-serif';
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.main-menu > h3 {
+    font-size: 24px;
+    font-family: 'aref ruqaa','sans-serif';
+    padding-bottom: 26px;
+    padding-left: 50px;
+    
+}
+
+menu{
+display: flex;
+align-items: flex-start;
+height: 300px;
+gap: 30px;
+margin-left: 60px;
+justify-content: space-between;
+width: 100%;
+}
+
+menu  > img {
+    padding-top: 50px;
+}
+
+img{
+    transition: transform 0.9s;
+
+}
+
+img:hover {
+    transform:scale(1.1);
+}
